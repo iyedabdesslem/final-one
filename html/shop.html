@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="../assets/llilo-removebg-preview.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/koko.css">
+    <title>Football Shop</title>
+</head>
+<body>
+    <header >
+        <a href="shop.html"><img  style="height: 50px; width: auto; margin-left: 20px;" src="../assets/ll24.png"></a>
+        <nav>
+            <ul>
+                <li><a href="shop.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 style="color: aliceblue;">LALIGA Official Store</h1>
+        <div class="items">
+            <!-- Barcelona Items -->
+            <div class="barcaside ">
+                <div class="item">
+                <img src="../assets/fcb third 23-24.webp" alt="Barcelona T-Shirt 1" style="border-radius: 20px;">
+                <h3>FC Barcelona third kit 23-24</h3>
+                <p>Price: $80</p>
+                <button class="addToCart">Add to Cart</button>
+                </div>
+                <div class="item" style="background-image: url('../assets/gold.jpg');
+                background-size: cover;
+                background-repeat: no-repeat; border: none;">
+                <img src="../assets/goldenn.png" alt="Barcelona claassico " style="border-radius: 20px; ">
+                <h3 style="color: aliceblue;">FC Barcelona X Rolling stones <b style="color: rgb(32, 12, 102);">limited edition series</b></h3>
+                <p > Price: $250</p>
+                <button class="addToCart" style="background-color: red;">Add to Cart</button>
+                </div><div class="item">
+                <img src="../assets/fcb away 23-24.jpg"  style="border-radius: 20px;">
+                <h3>FC Barcelona away kit 23-24</h3>
+                <p>Price: $80</p>
+                <button class="addToCart">Add to Cart</button>
+                </div><div class="item">
+                <img src="../assets/fcb24.webp" alt="Barcelona T-Shirt 1" style="border-radius: 20px;">
+                <h3>FC Barcelona home kit 23-24</h3>
+                <p>Price: $80</p>
+                <button class="addToCart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="scoreboard" id="barcelonaScoreboard">
+                <h2>Barcelona Side Score</h2>
+                <p>Score: <span id="barcelonaScore">0</span></p>
+            </div>
+        
+            <div class="scoreboard" id="realMadridScoreboard">
+                <h2>Real Madrid Side Score</h2>
+                <p>Score: <span id="realMadridScore">0</span></p>
+            </div>
+            <div class="realside">
+                <div class="item">
+                <img src="../assets/real madrid  thirddd.avif"  style="border-radius: 20px;">
+                <h3>Real Madrid away kit 23-24</h3>
+                <p>Price: $40</p>
+                <button class="addToCart">Add to Cart</button>
+                </div>
+                <div class="item" >
+                <img src="../assets/rml.webp"  style="border-radius: 20px;">
+                <h3>Real Madrid home kit 23-24</h3>
+                <p>Price: $80</p>
+                <button class="addToCart">Add to Cart</button>
+                </div>
+                <div class="item" style="background-image: url('../assets/bgr.avif');
+                background-size: cover;
+                background-repeat: no-repeat;
+                border: none;">
+                <img src="../assets/rm1-removebg-preview (1).png ">
+                <h3>Real Madrid kit X <b style="color: blue;">THE DRAGON</b></h3>
+                <p>Price: $250</p>
+                <button class="addToCart" style="background-color: blue;">Add to Cart</button>
+                </div>
+                <div class="item">
+                <img src="../assets/bg11.jpg" alt="Real Madrid T-Shirt 1" style="border-radius: 20px;">
+                <h3>Real Madrid pre-match kit 23-24</h3>
+                <p>Price: $40</p>
+                <button class="addToCart">Add to Cart</button>
+                </div>
+            </div>
+
+
+
+            <!-- Add more Real Madrid items here -->
+        </div>
+    </div>
+
+    <div class="cart">
+        <h2>Shopping Cart</h2>
+        <div class="cart-items">
+            <!-- Cart items will be added here dynamically using JavaScript -->
+        </div>
+        <p>Total: $<span id="totalPrice">0</span></p>
+    </div>
+
+    <script src="../JS/koko.js"></script>
+</body>
+</html>
